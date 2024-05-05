@@ -25,7 +25,7 @@ in
 
 rustPlatform.buildRustPackage rec {
   pname = "diesel-cli";
-  version = "2.1.1";
+  version = "2.1.6";
 
   src = fetchCrate {
     inherit version;
